@@ -1,10 +1,10 @@
-# 🎓 EduLearn Frontend Prototype
+# 🎓 EduLearn – Modern E-Learning Dashboard
 
-EduLearn is a clean, responsive, and role-based dashboard interface for an educational platform. This is a **frontend-only prototype** meant to showcase layout, styling, and user experience for both students and instructors.
+EduLearn is a responsive, role-based web dashboard designed for educational platforms. It offers tailored interfaces for both students and instructors, with a clean UI built using modern web technologies.
 
 ---
 
-## 📸 Screenshots
+## 📸 Dashboard Previews
 
 ### 🧑‍🎓 Student Dashboard  
 ![Student Dashboard Preview](assets/student-dashboard-preview.png)
@@ -12,29 +12,30 @@ EduLearn is a clean, responsive, and role-based dashboard interface for an educa
 ### 👨‍🏫 Instructor Dashboard  
 ![Instructor Dashboard Preview](assets/instructor-dashboard-preview.png)
 
-> 🖼️ Ensure these image files are located in the `assets/` directory for proper display.
-
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 📱 Responsive design using **TailwindCSS**
-- 🎚️ Sidebar navigation for smooth user flow
-- 📊 Dashboard metrics for both students and instructors
-- 📢 Announcements and activity feed sections
-- 🧩 Modular and maintainable layout structure
+- 🔥 Clean, modern UI with TailwindCSS
+- 📊 Dashboard metrics (courses, assignments, messages, etc.)
+- 🧭 Sidebar navigation for seamless UX
+- 📢 Announcements and recent activity feed
+- 📱 Fully responsive design for desktop and mobile devices
+- 🧑‍🏫 Separate views for students and instructors
 
 ---
 
 ## 🧰 Tech Stack
 
 - **HTML5**
-- **TailwindCSS** (via CDN)
-- **No backend** – static-only UI prototype
+- **TailwindCSS** (CDN integration)
+- **Vanilla JavaScript** (optional extensions)
+- No backend dependency — easy to deploy on any static host
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
+
 
 edulearn-main/
 ├── public/
@@ -58,29 +59,26 @@ edulearn-main/
 
 ---
 
+
+---
+
 ## 🚀 Getting Started
 
-1. Clone this repository or download the ZIP.
-2. Open any `.html` file in your browser.
-3. View the dashboards and test responsive behavior.
+1. Clone the repository or download the ZIP.
+2. Open any `.html` file (e.g., `dashboard.html`) in your browser.
+3. Navigate through the dashboard and explore the features.
 
 ---
 
-## 🔎 Notes
-
-> This prototype does **not** include backend logic, user authentication, or dynamic data. It is intended for layout demonstration and UI design purposes only.
-
----
-
-## 🧑‍💻 Author
+## 🙋‍♂️ About the Developer
 
 **Tamutswa Matondo**  
-Frontend Developer | AI Enthusiast  
-[GitHub: @Tamutswa](https://github.com/Tamutswa)
+Frontend Developer & AI Enthusiast  
+📧 tamutswamatondo04@gmail.com  
+🌐 [GitHub – @Tamutswa](https://github.com/Tamutswa)
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
-
+Licensed under the [MIT License](LICENSE).
