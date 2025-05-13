@@ -7,10 +7,10 @@ EduLearn is a responsive, role-based web dashboard designed for educational plat
 ## 📸 Dashboard Previews
 
 ### 🧑‍🎓 Student Dashboard  
-![Student Dashboard Preview](assets/student-dashboard-preview.png)
+![Student Dashboard Preview](assets/student_dashboard.png)
 
 ### 👨‍🏫 Instructor Dashboard  
-![Instructor Dashboard Preview](assets/instructor-dashboard-preview.png)
+![Instructor Dashboard Preview](assets/dashboard.png)
 
 ---
 
