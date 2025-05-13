@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instructor Dashboard - EduLearn</title>
+  <!-- Tailwind CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-lg">
+      <div class="p-6 font-bold text-lg text-indigo-600">EduLearn</div>
+      <nav class="mt-4 space-y-2 text-sm">
+        <a href="#" class="block py-2.5 px-4 hover:bg-indigo-100">Dashboard</a>
+        <a href="#" class="block py-2.5 px-4 hover:bg-indigo-100">My Courses</a>
+        <a href="#" class="block py-2.5 px-4 hover:bg-indigo-100">Submissions</a>
+        <a href="#" class="block py-2.5 px-4 hover:bg-indigo-100">Messages</a>
+        <a href="#" class="block py-2.5 px-4 hover:bg-indigo-100">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-8">
+      <header class="flex justify-between items-center mb-6">
+        <h1 class="text-2xl font-bold">Instructor Dashboard</h1>
+        <div class="w-10 h-10 rounded-full bg-gray-300"></div>
+      </header>
+
+      <!-- Cards -->
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-2xl shadow p-5">
+          <h2 class="text-lg font-semibold mb-2">Courses Taught</h2>
+          <p class="text-3xl font-bold text-indigo-600">5</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-5">
+          <h2 class="text-lg font-semibold mb-2">Active Students</h2>
+          <p class="text-3xl font-bold text-green-500">132</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-5">
+          <h2 class="text-lg font-semibold mb-2">Assignments to Grade</h2>
+          <p class="text-3xl font-bold text-red-500">14</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow p-5">
+          <h2 class="text-lg font-semibold mb-2">Messages</h2>
+          <p class="text-3xl font-bold text-yellow-500">7</p>
+        </div>
+      </section>
+
+      <!-- Announcements -->
+      <section class="mt-10">
+        <h2 class="text-xl font-semibold mb-4">Recent Activity</h2>
+        <ul class="space-y-4">
+          <li class="bg-white p-4 rounded-xl shadow">📣 Feedback reminder: AI Fundamentals assignment due Friday.</li>
+          <li class="bg-white p-4 rounded-xl shadow">✅ Course "Web Dev 101" has been published.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
